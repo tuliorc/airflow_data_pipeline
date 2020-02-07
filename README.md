@@ -1,2 +1,2 @@
 # Airflow Data Pipelines for Sparkify
-This project summarises efforts to extract data from S3, load it into Redshift tables and transform those into a set of fact and dimension tables. This is done with a dynamic data pipeline built from reusable tasks, also allowing easy backfills.
+This project extracts data from S3, loads it into Redshift tables and transform those into a set of fact and dimension tables. This is done with a dynamic DAG built from reusable tasks, allowing for tasks monitoring and also easy backfills.
